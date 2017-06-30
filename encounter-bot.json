@@ -1,0 +1,84 @@
+// cheapbotsdonequick.com/source/EncounterBot
+
+{
+	"origin": ["You find yourself #location#, #verb# #threat#... #attempt#"],
+	"location" : [
+		"in a damp dungeon",
+		"in an abandoned temple",
+		"in a deep canyon",
+		"in a quite meadow",
+		"on a lonely road",
+		"in a tall tower",
+		"in the ruins of a castle",
+		"in a dark forest",
+		"in barren wasteland",
+		"in a haunted cemetery",
+		"atop a frozen mountain",
+		"in a cursed swamp",
+		"in a boat on a stormy sea",
+		"at a remote oasis",
+		"at the heart of a labyrinth",
+		"in the center of an arena",
+		"on the roof of the palace"
+	],
+	"verb":[
+		"facing",
+		"under attack by",
+		"confronting"
+	],
+	"threat" :[
+		"the goblin king",
+		"an angry noble",
+		"a hoard of zombies",
+		"your evil twin",
+		"a powerful wizard",
+		"brigands",
+		"a vengeful scholar",
+		"a pack of hungry wolves",
+		"a squad of hostile soldiers",
+		"a necromancer and his skeletons",
+		"a wounded dragon",
+		"a clockwork golem",
+		"a fire elemental",
+		"a shapeshifter",
+		"a small group of goblins",
+		"a translucent wraith",
+		"a howling banshee",
+		"a greedy treasure hunter",
+		"the bounty hunter who has been stalking you",
+		"a masked assassin",
+		"a hungry troll"
+	],
+	"attempt":[
+		"What do you try to do?",
+		"What's your move?",
+		"What's your plan?"
+	],
+	"resolution" :[
+		"An outstanding success",
+		"You succeed, but at a significant cost",
+		"So far so good, but you're not safe yet",
+		"The threat isn't over but you have the advantage",
+		"You fail and things get worse, but you learn something in the process",
+		"An abysmal failure. Things are getting desperate",
+		"Alas, a stalemate; this approach won't work",
+		"If only it were that easy – try another way."
+	],
+	"nextStep":[
+		"what do you try next?",
+		"what's your next step?",
+		"what's your next move?"
+	]
+}
+
+{
+	"Bring it on!":"#origin#",
+	"Is that all you got?":"Suddenly, you see a new threat: #threat#. What do you do?",
+	"The end.": null,
+	"The End": null,
+	"the end": null,
+	"The end": null,
+	"the end.": null,
+	"the End": null,
+	".":"#resolution#... What happened and #nextStep#"
+}

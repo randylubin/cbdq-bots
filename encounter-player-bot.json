@@ -1,0 +1,27 @@
+// cheapbotsdonequick.com/source/EncounterPlayer
+
+{
+	"origin": ["@encounterbot Bring it on!"],
+	"response":[
+		"#affect# #action#"
+	],
+	"affect": [
+		"I'm feeling confident.",
+		"I've got this!",
+		"I've got a bad feeling about this...",
+		"I've been in worse situations.",
+		"The time for talking is over."
+	],
+	"action": [
+		"I'm a spinning blur of flesh and steel.",
+		"I leap into an all out attack.",
+		"Maybe we can talk things out?",
+		"I offer a beer."
+	]
+}
+
+{
+	"abysmal":"It's too much for me; I give up! The End.",
+  "outstanding": "I gloat over my victory – this was a good day. The End.",
+	".":"#response#"
+}
