@@ -1,7 +1,18 @@
 // cheapbotsdonequick.com/source/EncounterPlayer
 
 {
-	"origin": ["@encounterbot Bring it on!"],
+	"origin": ["@encounterbot #startGame#... #startGame#!"],
+	"startGame":[
+		"bring it on",
+		"let's do this",
+		"I'm ready",
+		"let's go",
+		"story time",
+		"so it begins",
+		"tell me a tale",
+		"I want to be a hero",
+		"spin me a yarn"
+	],
 	"response":[
 		"#affect# #action#"
 	],
@@ -10,18 +21,34 @@
 		"I've got this!",
 		"I've got a bad feeling about this...",
 		"I've been in worse situations.",
-		"The time for talking is over."
+		"This is what I've been training for.",
+		"The time for talking is over.",
+		"I'm not prepared for this!"
 	],
 	"action": [
-		"I'm a spinning blur of flesh and steel.",
+		"I'm a blur of spinning flesh and steel.",
 		"I leap into an all out attack.",
+		"I get into a defensive crouch",
+		"I yell for reinforcements",
 		"Maybe we can talk things out?",
+		"Enjoy the paralyzer!",
 		"I offer a beer."
+	],
+	"failEnd": [
+		"It's too much for me; I give up!",
+		"There's no winning here; I surrender.",
+		"I've made a huge mistake. You win!"
+	],
+	"successEnd": [
+		"I gloat over my victory – this was a good day.",
+		"I knew I would prevail – time for some R&R.",
+		"They will write epic poems about this victory!"
+
 	]
 }
 
 {
-	"abysmal":"It's too much for me; I give up! The End.",
-  "outstanding": "I gloat over my victory – this was a good day. The End.",
+	"abysmal":"#failEnd# The End.",
+	"outstanding": "#successEnd# The End.",
 	".":"#response#"
 }
