@@ -1,9 +1,8 @@
 // cheapbotsdonequick.com/source/EncounterPlayer
 
 {
-	"origin": ["@encounterbot #startGame#... #startGame#!"],
+	"origin": ["@encounterbot #startGame#... Bring it on!"],
 	"startGame":[
-		"bring it on",
 		"let's do this",
 		"I'm ready",
 		"let's go",
@@ -23,6 +22,11 @@
 		"I've been in worse situations.",
 		"This is what I've been training for.",
 		"The time for talking is over.",
+		"I'm shaking...",
+		"This is all too familiar...",
+		"Time to get creative...",
+		"Steady now...",
+		"No biggie...",
 		"I'm not prepared for this!"
 	],
 	"action": [
@@ -32,12 +36,21 @@
 		"I yell for reinforcements",
 		"Maybe we can talk things out?",
 		"Enjoy the paralyzer!",
+		"I look for a weak spot and lunge!",
+		"I improvise a weapon and attack!",
+		"I try a protective spell I've been practicing",
+		"I try a fire spell I've mastered",
+		"Can I teleport to safety?",
+		"I drop back and switch to my bow.",
+		"I call in an air strike from a dragon.",
+		"I offer a bribe.",
 		"I offer a beer."
 	],
 	"failEnd": [
 		"It's too much for me; I give up!",
 		"There's no winning here; I surrender.",
-		"I've made a huge mistake. You win!"
+		"I've made a huge mistake. You win!",
+		"I am bleeding, making me the victor!"
 	],
 	"successEnd": [
 		"I gloat over my victory – this was a good day.",
@@ -48,7 +61,7 @@
 }
 
 {
-	"abysmal":"#failEnd# The End.",
-	"outstanding": "#successEnd# The End.",
+	"abysmal":"#failEnd# The end.",
+	"outstanding": "#successEnd# The end.",
 	".":"#response#"
 }
